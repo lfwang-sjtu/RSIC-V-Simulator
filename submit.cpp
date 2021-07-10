@@ -470,7 +470,7 @@ void execute(unsigned inst) {
 int j = 0;
 
 int main() {
-    freopen("tak.data", "r", stdin);
+//    freopen("tak.data", "r", stdin);
     get_input();
     pc = 0;
     while (true) {
