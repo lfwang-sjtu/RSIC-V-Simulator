@@ -3,4 +3,4 @@ project(RISC_V_Simulator)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(code main.cpp byte_code.hpp decode.hpp execute.hpp)
+add_executable(code main.cpp Tomasulo.hpp)
